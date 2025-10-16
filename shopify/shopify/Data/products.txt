@@ -1,0 +1,2 @@
+1,G_SHOCK,15000
+2,Samsung TV,50000
