@@ -1,0 +1,48 @@
+Task from 1st module ----
+
+1.  switch case without break ..
+sol.  yes it execute 
+
+	switch(2) {
+            case 1:
+                Console.WriteLine("hi");
+                break;
+            case 2:
+                Console.WriteLine("how");		// here if i remove so it continue to next case and then break so output is how are you.
+                
+            case 3:
+                Console.WriteLine("are you");
+                break;
+            default:
+                Console.WriteLine("?");
+                break;
+        }
+
+
+
+
+2. continue inside switch case
+sol.  yes we can but inside loop.. 
+	
+	for(int i = 1; i <= 3; i++) {
+    switch(i) {
+        case 1:
+            Console.WriteLine("Case 1");
+            continue; 				// from here next interation of loop will start
+        case 2:
+            Console.WriteLine("Case 2");
+            break;
+        default:
+            Console.WriteLine("Default Case");
+            break;
+    }
+}
+ 
+
+
+
+3. Ternary Operator (will add more conditions ?)
+sol. yes we can ..
+
+	int marks = 85;
+        String grade = marks >= 90 ? "Grade A+" : marks >= 75 ? "Grade A" : marks >= 50 ? "Grade B" : "Fail";
